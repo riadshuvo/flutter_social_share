@@ -114,11 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
               image != null ? Image.file(image!) : Text("No image selected"),
               ElevatedButton(
                 onPressed: () {
-                  // await appinioSocialShare.shareToFacebook('', image!.path);
-
                   LecleSocialShare.F.shareFileToFacebook(
                     filePath: image!.path,
-                    fileProviderPath: '',
                     fileType: AssetType.image,
                   );
                 },
@@ -128,7 +125,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   LecleSocialShare.W.shareFileToWhatsApp(
                     filePath: image!.path,
-                    fileProviderPath: '',
                     fileType: AssetType.image,
                   );
                 },
@@ -138,7 +134,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   LecleSocialShare.M.shareFileToMessenger(
                     filePath: image!.path,
-                    fileProviderPath: '',
                     fileType: AssetType.image,
                   );
                 },
@@ -148,7 +143,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   LecleSocialShare.I.shareFileToInstagram(
                     filePath: image!.path,
-                    fileProviderPath: '',
                     fileType: AssetType.image,
                   );
                 },
