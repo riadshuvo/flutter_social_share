@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -45,58 +47,51 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
-
 	<key>CFBundleURLTypes</key>
-    <array>
-    <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-            <string>fb436981530982870</string>
-        </array>
-    </dict>
-    </array>
-
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>instagram</string>
-      <string>fb</string>
-      <string>fbauth2</string>
-      <string>fbshareextension</string>
-      <string>fbapi</string>
-      <string>facebook-reels</string>
-      <string>facebook-stories</string>
-      <string>fb-messenger-share-api</string>
-      <string>fb-messenger</string>
-      <string>tg</string>
-      <string>whatsapp</string>
-      <string>twitter</string>
-
-      <string>tiktokopensdk</string>
-      <string>tiktoksharesdk</string>
-      <string>snssdk1180</string>
-      <string>snssdk1233</string>
-    </array>
-
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>$(PRODUCT_NAME) needs permission to access photos and videos on your device</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>$(PRODUCT_NAME) does not require access to the microphone.</string>
-    <key>NSCameraUsageDescription</key>
-    <string>$(PRODUCT_NAME) requires access to the camera.</string>
-    <key>NSAppleMusicUsageDescription</key>
-    <string>$(PRODUCT_NAME) requires access to play music</string>
-
-    <key>FacebookAppID</key>
-    <string>436981530982870</string>
-    <key>FacebookClientToken</key>
-    <string>2c2bd65faf3d8df68b323063475cdba1</string>
-    <key>FacebookDisplayName</key>
-    <string>PROVAAT</string>
-
-    <key>NSBonjourServices</key>
-    <array>
-    <string>_dartobservatory._tcp</string>
-    </array>
-
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb436981530982870</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>instagram</string>
+		<string>fb</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>fbapi</string>
+		<string>facebook-reels</string>
+		<string>facebook-stories</string>
+		<string>fb-messenger-share-api</string>
+		<string>fb-messenger</string>
+		<string>tg</string>
+		<string>whatsapp</string>
+		<string>twitter</string>
+		<string>tiktokopensdk</string>
+		<string>tiktoksharesdk</string>
+		<string>snssdk1180</string>
+		<string>snssdk1233</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs permission to access photos and videos on your device</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) does not require access to the microphone.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) requires access to the camera.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>$(PRODUCT_NAME) requires access to play music</string>
+	<key>FacebookAppID</key>
+	<string>436981530982870</string>
+	<key>FacebookClientToken</key>
+	<string>2c2bd65faf3d8df68b323063475cdba1</string>
+	<key>FacebookDisplayName</key>
+	<string>PROVAAT</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+	</array>
 </dict>
 </plist>

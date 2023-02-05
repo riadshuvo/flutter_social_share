@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:lecle_social_share/lecle_social_share.dart';
+import 'package:share_plus/share_plus.dart';
 
 void main() {
   runApp(const MyApp());
@@ -149,6 +150,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
                 child: const Text('Share media content file to Instagram'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Share.shareXFiles([XFile(image!.path)]);
+                },
+                child: const Text('Share from SharePlus'),
               ),
             ],
           ),

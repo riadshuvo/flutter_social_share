@@ -38,6 +38,7 @@ dependencies:
   lecle_social_share:
     path: packages/social_share_package
   image_picker: ^0.8.3
+  share_plus: ^6.3.0
 
 #  appinio_social_share:
 #    git:

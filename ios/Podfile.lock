@@ -16,6 +16,11 @@ PODS:
     - Flutter
     - TikTokOpenSDK (~> 5.0.14)
     - TwitterKit (= 3.4.2)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - share_plus (0.0.1):
+    - Flutter
   - TikTokOpenSDK (5.0.15)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
@@ -25,6 +30,8 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
   - lecle_social_share (from `.symlinks/plugins/lecle_social_share/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
 
 SPEC REPOS:
   trunk:
@@ -43,6 +50,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/image_picker_ios/ios"
   lecle_social_share:
     :path: ".symlinks/plugins/lecle_social_share/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
 
 SPEC CHECKSUMS:
   FBAEMKit: a899515e45476027f73aef377b5cffadcd56ca3a
@@ -52,10 +63,12 @@ SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
   lecle_social_share: 76a09e530aeae9acee2b87e682f826686c851118
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  share_plus: 056a1e8ac890df3e33cb503afffaf1e9b4fbae68
   TikTokOpenSDK: dc1199ba9c6d7815aee0eaca6ec80ad13f7d9c1f
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+PODFILE CHECKSUM: 25352c6938c1c251afa40c2f8150e165b4a49cd7
 
 COCOAPODS: 1.11.3
