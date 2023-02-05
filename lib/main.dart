@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -127,6 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     filePath: image!.path,
                     fileType: AssetType.image,
                   );
+                  log("imagepath: ${image!.path}");
                 },
                 child: const Text('Share media content file to Whatsapp'),
               ),
